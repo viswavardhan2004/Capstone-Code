@@ -1,0 +1,31 @@
+module.exports = {
+  RATING_VELOCITY_THRESHOLD: 5,
+  RATING_VELOCITY_WINDOW_HOURS: 24,
+  REFUND_THRESHOLD: 3,
+  NEW_ACCOUNT_AGE_DAYS: 7,
+  NEW_ACCOUNT_JOB_THRESHOLD: 5,
+  COLLUSION_RATING_THRESHOLD: 3,
+  FAST_COMPLETION_MINUTES: 30,
+  SUSPICIOUS_PRICE_PERCENT: 0.10,
+  SAME_WEEK_DAYS: 7,
+  INSTANT_ESCROW_MINUTES: 10,
+  BURST_JOBS_PER_HOUR: 5,
+  TECHNICAL_CATEGORIES: ['development', 'design', 'data', 'ml', 'coding', 'writing'],
+  WEIGHTS: { 
+    r1: 1.0, 
+    r2: 0.6, 
+    r3: 0.6, 
+    r4: 0.5, 
+    r5: 0.3, 
+    r6: 0.5,
+    r7: 0.5, 
+    r8: 0.3, 
+    r9: 0.3, 
+    r10: 0.3, 
+    r11: 1.0, 
+    r12: 0.3, 
+    r13: 0.4 
+  },
+  BLOCK_THRESHOLD: 1.0,
+  REVIEW_THRESHOLD: 0.3
+};
